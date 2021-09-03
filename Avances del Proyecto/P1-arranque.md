@@ -84,20 +84,26 @@ El reto consiste en proponer una solución al problema de movilidad urbana en M�
 que reduzca la congestión vehicular al simular de manera gráfica el tráfico, representando la salida de 
 un sistema multi agentes.
 
-Imagina una solución que implemente una de las siguientes estrategias de ejemplo:
+De acuerdo con la Federal Highway Administration del Departamento de Transporte de EEUU<sup>3</sup>, más del 50% los accidentes automovilísticos ocurren cerca de o en alguna intersección. Un estudio publicado por la National Highway Traffic Safety Administration del Departamento de Transporte de EEUU <sup>4</sup> mostró que el 96% de los accidentes que ocurren en las intersecciones son causados por errores de los conductores. Dichos accidentes son comúnmente colisiones laterales, las cuales generan mayores heridas y daños, debido a que los vehículos tienen menos protección en dichas zonas.
 
-- Controlar y asignar los espacios de estacionamiento disponible en una zona de la ciudad, evitando así 
-que los autos estén dando vueltas para encontrar estacionamiento.
+*Principales causas de accidentes automovilísticos*
+* Falta de atención a la intersección
+* Suposiciones erróneas sobre las acciones de otros conductores
+* Dar vuelta con una vista obstruida
+* Maniobras ilegales
+* Distraciones 
+* Ignorar señales de tráfico
 
-- Compartir tu vehículo con otras personas. Aumentando la ocupación de los vehículos, reduciría el 
-número de vehículos en las calles.
+*Principales heridas causadas por accidentes automovilísticos*
+* Cerebrales o en la cabeza
+* Hiperextensión cervical u otras heridas de cuello
+* Heridas de espalda o de la médula espinal
+* Heridas en órganos internos
+* Heridas en tejido blando
 
-- Tomar las rutas menos congestionadas. Quizás no más las cortas, pero las rutas con menos tráfico. 
-Más movilidad, menos consumo, menos contaminación.
+Debido al alto número de accidentes ocurridos en intersecciones y tomando en cuenta que dichos accidentes ocurren principalmente por errores de los conductores, se considera pertinente desarrollar un sistema multiagente controlado por semáforos inteligentes que controlen el flujo vehicular, esto con el motivo de evitar accidentes y disminuir el margen de error ocasionado por los conductores.
 
-- Que permita a los semáforos coordinar sus tiempos y, así, reducir la congestión de un cruce. 
-O, quizás, indicar en qué momento un vehículo va a cruzar una intersección y que de esta forma, 
-el semáforo puede determinar el momento y duración de la luz verde.
+De esta manera, es posible simular un sistema de intersección inteligente, analizar las interacciones y comportamientos de los agentes dentro del sistema y, a partir de los resultados obtenidos, analizar si dicha solución es eficiente, con el objetivo de que, en un futuro, sea posible implementarse en una intersección real.
 
 
 
@@ -118,7 +124,7 @@ En este apartado se pueden encontrar los diagramas principales la cual nos basam
 ![alt text](https://i.ibb.co/GW867bm/Protocolos-Diagrama.png)
 
 # Plan de trabajo
-![alt text](https://i.ibb.co/6spQz2H/GANTT.png "Diagrama Gantt")
+![alt text](https://i.ibb.co/z60c84w/P1-Arranque-de-Proyecto.png "Diagrama Gantt")
 
 # Actividades Pendientes
 * P2. Actividad de Semana 2
@@ -136,6 +142,10 @@ Los aprendizajes que adquirimos al realizar esta actividad fueron:
 La presentación donde se puede encontrar en un formato más accesible se puede encontrar dandole click a [esta liga.](https://docs.google.com/presentation/d/1z-zLMCN0JRH5F9-vAV_bfeX2HRS1jH5wa5MagnbsXd0/edit?usp=sharing)
 
 # Referencias 
- <sup>1</sup> Handy, Susan. (2002). Accessibility- Vs. Mobility-Enhancing Strategies for Addressing Automobile Dependence in the U.S. European Conference of Ministers of Transport. Retrieved on February 21, 2012, from http://www.des.ucdavis.edu/faculty/handy/ECMT_report.pdf.
+ <sup>1</sup> Handy, Susan. (2002). *Accessibility- Vs. Mobility-Enhancing Strategies for Addressing Automobile Dependence in the U.S. European Conference of Ministers of Transport.* Retrieved on February 21, 2012, from http://www.des.ucdavis.edu/faculty/handy/ECMT_report.pdf.
  
- <sup>2</sup> Medina Ramírez, Salvador. (2012). Transforming Urban Mobility in Mexico: Towards Accesible Cities Less Reliant on Cars. Institute for Transportation and Development Policy (ITDP Mexico). Retrieved on August 7, 2019, from http://mexico.itdp.org/wp-content/uploads/Transforming-Urban-Mobility-in-Mexico.pdf
+ <sup>2</sup> Medina Ramírez, Salvador. (2012). *Transforming Urban Mobility in Mexico: Towards Accesible Cities Less Reliant on Cars.* Institute for Transportation and Development Policy (ITDP Mexico). Retrieved on August 7, 2019, from http://mexico.itdp.org/wp-content/uploads/Transforming-Urban-Mobility-in-Mexico.pdf
+ 
+ <sup>3</sup> Federal Highway Administration. (Agosto 26, 2021). *Intersection Safety.* Retrieved on September 1, 2021, from https://highways.dot.gov/research/research-programs/safety/intersection-safety
+ 
+ <sup>4</sup> Fowkes & Hasanbasic. (n.d.). *Intersection Accidents.* Retrieved on September 1, 2021, from https://www.fhlawpa.com/tampa-car-accident-lawyer/intersection-accidents/
